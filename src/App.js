@@ -3,22 +3,22 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-      <nav className="navBar">
-        <ul className="ul">
-          <li className="li">ISSUE JUNE</li>
+      <nav className="timeline">
+        <ul className="timeline__info">
+          <li className="timeline__info__month">ISSUE JUNE</li>
           <li style={{ float: "right", paddingRight: "2%" }}>NEWS</li>
         </ul>
       </nav>
-      <div className="heading">NEWSPAPER</div>
-      <div className="row1">
-        <div className="row1-col1">
+      <div className="header">NEWSPAPER</div>
+      <div className="news1">
+        <div className="news1__details">
           <p>LOREM IPSUM HAS BEEN THE INDUSTRY'S</p>
           <p>STANDARD DUMMY TEXT EVER SINCE THE 1500S,</p>
           <p>WHEN AN UNKNOWN PRINTER TOOK A GALLEY.</p>
           <date>
             <b>10 June 2020</b>
           </date>
-          <div className="row1-col1-paragraph">
+          <div className="news1__details__information">
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
@@ -31,17 +31,17 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="row1-col2"></div>
+        <div className="news1__image"></div>
       </div>
-      <div className="row2">
-        <div className="row2-col1"></div>
-        <div className="row2-col2">
+      <div className="news2">
+        <div className="news2__image"></div>
+        <div className="news2__details">
           <p>LOREM IPSUM HAS BEEN THE INDUSTRY'S STANDARD DUMMY TEXT </p>
           <p>EVER SINCE THE 1500S.</p>
           <date>
             <b>10 June 2020</b>
           </date>
-          <div className="row1-col2-paragraph row1-col1-paragraph">
+          <div className="news2__details__information news1__details__information">
             <p>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
@@ -52,8 +52,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="row3">
-        <div className="row3-col1 row1-col1-paragraph">
+      <div className="newsBulletins">
+        <div className="newsBulletins__one news1__details__information">
           <h1>YOUR TITLE HERE</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
@@ -63,7 +63,7 @@ function App() {
             remaining essentially unchanged.{" "}
           </p>
         </div>
-        <div className="row3-col2 row1-col1-paragraph">
+        <div className="newsBulletins__two news1__details__information">
           <h1>YOUR TITLE HERE</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
@@ -73,7 +73,7 @@ function App() {
             remaining essentially unchanged.{" "}
           </p>
         </div>
-        <div className="row3-col3 row1-col1-paragraph">
+        <div className="newsBulletins__three news1__details__information">
           <h1>YOUR TITLE HERE</h1>
           <p>
             Lorem Ipsum has been the industry's standard dummy text ever since
